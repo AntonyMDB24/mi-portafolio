@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer proyecto</title>
+    <link rel="website icon" href="/Semana_1/Micro Proyecto/img/web.png">
+</head>
+<body>
+    <!--encabezado de la pagina -->
+    <header>
+        <h1>Antony Manuel Duarte Bravo</h1>
+        <p> <strong>Estudiante de Sistemas de Información</strong></p>
+        <!-- Imagen de perfil  -->
+        <img src="/Semana_1/Micro Proyecto/img/foto Perfil.jpg" alt="Foto de perfil de Antony Manuel Duarte Bravo" width="100
+        ">
+    </header>
+    <br>
+        <!-- Menú de navegación de la página -->
+    <nav>
+        <a href="#sobremi">Sobre mí</a> |
+        <a href="#intereses">Intereses</a> |
+        <a href="#habilidades">Habilidades</a> |
+        <a href="#multimedia">Multimedia</a> |
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <br>
+    <section id="sobremi">
+        <h2>Sobre mí</h2>
+        <p>Soy estudiante de la  <mark>Universidad Técnica de Babahoyo</mark>. Estoy estudiando la carrera de Sistemas de Información.</p>
+        <p>Me apasiona aprender sobre tecnologías y aplicar mis conocimientos de desarrollo para crear pequeños proyectos.</p>
+        <p> <em>Mi objetivo es graduarme de la carrera.</em></p>
+    </section>
+       
+      <!-- Sección de intereses -->
+    <section id="intereses">
+        <h2>Intereses</h2>
+        <ul>
+            <li>Desarrollo web y móvil</li>
+            <li>Inteligencia artificial</li>
+            <li>Desarrollo de videojuegos</li>
+            <li>Lectura de literatura técnica</li>
+        </ul>
+    </section>
+        <!-- Tabla de habilidades -->
+    <section id="habilidades">
+        <h2>Mis Habilidades</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                   <th>Habilidad</th> 
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Principiante</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Principiante</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Principiante</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Intermedio</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <!-- seccion de multimedia -->
+    <!-- yo escogi subir un audio -->
+    <section id="multimedia">
+        <h2>Multimedia</h2>
+        <audio controls>
+            <source src="/Semana_1/Micro Proyecto/audio/audio de presentacion.mp3">
+            tu navegador no soporta audio
+        </audio>
+
+    </section> 
+    <!-- seccion de formularios -->
+    <section id="contacto">
+        <h2>Formulario de Comtacto</h2> <br>
+        <form >
+            <fieldset>
+            <legend>Formulario</legend>
+            <!-- Nombre -->
+             <label for="nombre">Nombre:</label> 
+             <input type="text" id="nombre" name="nombre"> <br> 
+             <!--correo electronico  -->
+             <label for="correo">Correo electrónico</label>
+            <input type="text" id="correo" name="correo"> <br>
+            <!-- edad -->
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" min="18"> <br>
+            <!-- seccion de genero -->
+            <label for="género">Género</label>
+            <select id="género" name="género">
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+                <option value="34">Otro</option>
+            </select> <br>
+            <!-- seccion deintereses -->
+            <label for="intereses">Intereses</label><br>
+            <input type="checkbox" name="Desarrollo web y móvil">Desarrollo web y móvil <br>
+            <input type="checkbox" name="Inteligencia artificial">Inteligencia artificial <br>
+            <input type="checkbox" name="Desarrollo de videojuegos">Desarrollo de videojuegos <br>
+            <input type="checkbox" name="Lectura de literatura técnica">Lectura de literatura técnica <br>
+            <!-- seccion para comentar -->
+            <textarea name="comentarios" rows="4" cols="30">Escribe aquí... 
+            </textarea><br> 
+            <input type="submit" value="Enviar"> 
+            </fieldset>
+        </form>
+    </section>
+    <!-- pie de pagina -->
+    <footer>
+        <p> &copy;2025 Antony Manuel Duarte Bravo. Todos los derechos reservados.</p>
+        <p>
+            <!-- Enlaces a redes sociales -->
+            <a href="https://www.facebook.com/share/1AFETW1M8Q/" target="_blank">facebook</a> |
+            <a href="https://github.com/AntonyMDB24" target="_blank">GitHub</a> |
+        </p>
+    </footer>
+</body>
+</html>
